@@ -18,6 +18,7 @@ export default function Home() {
   <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
     <div className="flex items-center gap-4">
     <BiSearchAlt2 className="text-black" size={24} />
+    {/* <h1> hi </h1> */}
     <BiCart className="text-black" size={24} />
     </div>
     
