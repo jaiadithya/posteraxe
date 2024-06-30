@@ -2,6 +2,8 @@ import Image from "next/image";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { BiCart } from "react-icons/bi";
 
+
+//hi
 export default function Home() {
   return (
     <>
