@@ -11,7 +11,7 @@ const page = () => {
 
   return (
     <>
-      <div className="space-y-6 mb-20 px-[200px]">
+      <div className="space-y-6 mb-20  px-6 md:px-30 lg:px-[200px]">
         <div className="justify-center flex">
           <h1 className="text-5xl font-black pb-10"> ABOUT </h1>
         </div>
