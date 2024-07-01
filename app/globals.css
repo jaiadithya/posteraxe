@@ -5,6 +5,25 @@
 
 
 
+.hover-border::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1.5px;
+    width: 0;
+    background-color: black;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .hover-border:hover::after {
+    width: 100%;
+  }
+
+
+
+
+
 body {
     margin: 0;
     font-family: 'Outfit', sans-serif;

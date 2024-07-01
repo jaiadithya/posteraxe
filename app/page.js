@@ -1,11 +1,9 @@
-import Hero from "./components/home/Hero";
-import Navbar from "./components/navbar";
+import React from 'react'
 
-//hi
-export default function Home() {
+const page = () => {
   return (
-    <>
-      hi
-    </>
-  );
+    <div>page</div>
+  )
 }
+
+export default page
