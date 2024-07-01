@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top */
+  }
+  
+  .main-content {
+    margin-top: 60px; /* Adjust based on the height of your Navbar */
+  }
+
+
+  
+.primary-btn{
+    background-color: white;
+    color: black;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.primary-btn :hover {
+    border: 1px solid black;
+}
+
+.secondary-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 500;
+    
+}
+
+.secondary-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+.tertiary-btn{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.tertiary-btn:hover{ 
+    background-color: black;
+    color: white;
+    transition: ease-in 20ms;
+}

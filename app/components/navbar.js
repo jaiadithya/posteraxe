@@ -7,22 +7,22 @@ export default function Navbar() {
       <nav class="bg-white border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="/"
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="framer.svg"
               class="h-8"
-              alt="Flowbite Logo"
+              alt="Posteraxe Logo"
             />
             <span class="self-center text-2xl font-semibold whitespace-nowrap text-black">
-              Flowbite
+              Posteraxe
             </span>
           </a>
           <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <div className="flex items-center gap-4">
-              <BiSearchAlt2 className="text-black" size={24} />
-              <BiCart className="text-black" size={24} />
+              <a href="/search"> <BiSearchAlt2 className="text-black" size={24} /> </a>
+              <a href="/cart"> <BiCart className=" cursor-pointer text-black" size={24} /> </a>
             </div>
 
             <button
@@ -58,7 +58,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="#"
-                  class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 "
+                  class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 "
                   aria-current="page"
                 >
                   Shop
