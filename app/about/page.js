@@ -5,9 +5,6 @@ import Primarybtn from "../components/button";
 import Image from "next/image";
 
 const page = () => {
-  const handleSubmit = () => {
-    console.log("value");
-  };
 
   return (
     <>
