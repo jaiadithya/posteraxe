@@ -1,14 +1,9 @@
-import Image from "next/image";
-import React from "react";
+import React from 'react'
 
 const Hero = () => {
   return (
-    <div>
-      <h1>
-        <Image src="" alt="no image" />
-      </h1>
-    </div>
-  );
-};
+    <div>Hero</div>
+  )
+}
 
-export default Hero;
+export default Hero
