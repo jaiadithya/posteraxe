@@ -3,10 +3,14 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
-      <h1>
-        <Image src="" alt="no image" />
-      </h1>
+    <div className="relative w-full h-screen">
+      <Image
+        src="/images/bgwall.png"
+        alt="Background Image"
+        layout="fill"
+        objectFit="cover"
+        className="w-full h-full"
+      />
     </div>
   );
 };

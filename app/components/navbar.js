@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <div className="flex items-center gap-4">
             <a href="/search">
-              <BiSearchAlt2 className="text-black" size={24} />
+              <BiSearchAlt2 className= "cursor-pointer text-black" size={24} />
             </a>
             <a href="/cart">
               <BiCart className="cursor-pointer text-black" size={24} />
