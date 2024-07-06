@@ -36,9 +36,9 @@ body {
     z-index: 1000; /* Ensure it stays on top */
   }
   
-  .main-content {
+  /* .main-content {
     margin-top: 60px; /* Adjust based on the height of your Navbar */
-  }
+  /* } */
 
 
   
@@ -48,10 +48,14 @@ body {
     padding: 12px 28px;
     border-radius: 10px;
     font-weight: 500;
+    border: 1px solid white;
+
 }
 
-.primary-btn :hover {
+.primary-btn:hover {
     border: 1px solid black;
+    transition: ease-in 20ms;
+
 }
 
 .secondary-btn{
@@ -67,6 +71,8 @@ body {
 .secondary-btn:hover {
     background-color: white;
     color: black;
+    transition: ease-in 20ms;
+
 }
 
 
